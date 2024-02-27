@@ -14,3 +14,12 @@ plt.plot(x_data, y_data, 'ro')
 plt.ylabel('GDP')
 plt.xlabel('Year')
 plt.show()
+
+# choosing a model
+X = np.arange(-5.0, 5.0, 0.1)
+Y = 1.0 / (1.0 + np.exp(-X))
+
+plt.plot(X,Y) 
+plt.ylabel('Dependent Variable')
+plt.xlabel('Independent Variable')
+plt.show()
